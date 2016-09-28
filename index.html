@@ -3,6 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sections/header.css">
+	<link rel="stylesheet" type="text/css" href="css/sections/content.css">
+	<link rel="stylesheet" type="text/css" href="css/sections/footer.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
 </head>
 <body>
 <div class="wrapper">
@@ -10,26 +16,27 @@
 <!-- начали хедер -->
 	<header>
 <div class="container">
-<div class="user">
 
-<div class="user-info">
+<div class="user-photo"><img src="img/content/me.jpg" width="60px" height="60px"/> 
+ </div>
 
-<div class="user-photo"><img src="img/content/hello-photo.png"/></div>
-<div class="user-text">Константин Константинов</div>
+<div class="user-text"> Катерина Свешникова</div>
 </div>
 
 <div class="user-contacts">
-	<a href="#">Мои контакты</a> 
+	<div class="contact-link"><a href="#" style="color: #33c1e3">Мои контакты</a> </div>
+	
 	<ul class="contacts-list">
 		<li></li>
 		<li></li>
 		<li></li>
 	</ul>
-	</div>
 
-		</div>
-		</div>
+	</div>
+</div>
+
 	</header> 
+	
 	<!-- С хедером закончили -->
 
 <!-- начали контент -->
@@ -42,12 +49,12 @@
 		<nav class="nav">
 			<ul class="content-menu">
 				<li class="li-aboutme">
-				<a href="#"> Обо мне</a> 
+				<a href="#"> <i class="fa fa-user-secret" aria-hidden="true"></i> Обо мне</a> 
 				</li>
 				<li class="career"> 
-				<a href="#"> Карьерный путь</a>
+				<a href="#"> <i class="fa fa-rocket" aria-hidden="true"></i> Карьерный путь</a>
 				</li>
-				<li class="portfolio"> <a href="#"> Портфолио</a></li>
+				<li class="portfolio"> <a href="#"> <i class="fa fa-briefcase" aria-hidden="true"></i> Портфолио</a></li>
 				</ul> 
 				</nav> 
 				</aside> 
@@ -97,21 +104,24 @@
 	<div class="aboutme-footer">
 		<footer>
 			<div class="container">
-				<div class="designed-by">
-				<div>©Дизайн сайта был разработан в школе LoftSchool</div>
 
-				<div>
+				<div class="designed-by">
+				©Дизайн сайта был разработан в школе LoftSchool </div>
+
+				<div class="icons">
 				<ul class="social">
-					<li></li>
-					<li></li>
-					<li></li>
+					<div class="fb-icon"><li> <a href="#"> <img src="img/icons/icon-facebook-na.png"> </a></li> </div>
+					<div class="vk-icon"><li> <a href="#"><img src="img/icons/icon-vk-a.png"> </a></li> </div>
+					<div class="tw-icon"><li class="tw-icon"> <a href="#"><img src="img/icons/icon-twit-na.png"> </a> </li> </div>
 				</ul> 
 				</div>
 
 				</div>
+
 			</div>
 		</footer>
 	</div>
+
 
 </div>
 </body>

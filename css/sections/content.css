@@ -1,0 +1,14 @@
+.first-content-div {
+	background-color: #f6f6f6;
+}
+img {
+	border-radius: 50%;
+}
+
+.user-aboutme-photo {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+
