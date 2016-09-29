@@ -1,59 +1,67 @@
 .first-content-div {
-	background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
 .menu {
-	display: inline-block;
-	float: left;
-	margin-right: 100px;
-	margin-left: 160px;
-	text-align: right;
-	line-height: 40px;
+    display: inline-block;
+    float: left;
+    margin-right: 100px;
+    margin-left: 160px;
+    text-align: right;
+    line-height: 40px;
 }
 
-.user-aboutme-photo {
-	display: inline-block;
-	float: left;
-	margin-right: 55px;
-
-
-
-}
-	
+    
 .content-menu > li > a{
-	color: #414141;
+    color: #414141;
 }
 
 .content-menu > li > a:hover{
-	color:  #33c1e3;
+    color:  #33c1e3;
+} 
+
+
+
+.user-aboutme-photo {
+    display: inline-block;
+    float: left;
+    margin-right: 55px;
+
 }
+
+.about__right {
+    float: right;
+}
+
+
 
 .user-aboutme-text {
-	text-align: right;
-	height: 300px;
-	overflow: auto;
-	margin-bottom: 63px;
+    text-align: left;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 63px;
 }
+
+
 
 .user-aboutme-resume {
-	margin-left: auto;
-	margin-bottom: 70px;
-	border:  2px solid #e85f61;
-	border-radius: 20px;
-	padding: 10px;
-	display: inline-block;
-	margin-left: 1000px;
-	background-color: #ffffff;
-	}
-
-
-.user-aboutme-resume > a {
-	color: #e85f61;
+    
+    display: block;
+    text-align: right;
+    
+    }
+    
+.button {
+    padding: 9px 12px;
+    border: 2px solid #e85f61;
+    color: #e85f61;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 40px;
 }
 
-.user-aboutme-resume:hover {
-	background-color: #e85f61;
-}
-.user-aboutme-resume:hover > a {
-	color: #ffffff;
+.button:hover {
+    background-color: #e85f61;
+    color: #ffffff;
 }
