@@ -1,46 +1,108 @@
-body {
-	font-size: 18px;
-	font-family: 'Fira Sans', sans-serif;
-}
-
 header {
-	background-color: #ffffff;
-}
-
-/*img {
-border-radius: 50%;
-}*/
-
-.user-photo {
-	border-radius: 50%;
-	overflow: hidden;
-	display: inline-block;
-	float:  left;
-margin: 0px 20px 0px 130px;
-
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px -10px #000000;
 }
 
 img {
-	width: auto;
-}
-.user-text {
-color: #414141;
-padding-top: 27px;
+    border-radius: 50%;
 }
 
+.header__left {
+    float: left;
+}
+
+.user-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin: 0 20px 0 130px;
+
+}
+
+.user-text {
+    display: inline-block;
+    color: #414141;
+    padding-top: 27px;
+}
+
+.header__right {
+    float: right;
+}
 .user-contacts {
-	color: #33c1e3;
-	display: inline-block;
-	padding-left: 950px;
-	margin-top: -35px;	
+    color: #33c1e3;
+    display: inline-block;
+    /*padding-left: 950px;
+    margin-top: -35px;  
+*/
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .contact-link {
-	border-bottom: 1px dotted #33c1e3;
-	
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    height: 20px;
 }
 
+.container {
+    }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+} */
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: #33c1e3;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    color: #e85f61;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 193px;
+    height: 136px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: #414141;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}

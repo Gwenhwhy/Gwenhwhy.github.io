@@ -1,0 +1,32 @@
+
+html, body {
+	height:100%;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+	line-height: 24px;
+	background-color: #f6f6f6;
+}
+
+.wrapper {
+height:auto !important;
+height:100%;
+min-height:100%;
+position:relative;
+}
+.empty 
+height:100px; 
+
+.aboutme-footer {
+height:100px;
+position:relative;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

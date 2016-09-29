@@ -2,18 +2,7 @@
 {
 	background-color: #414141;
 }
-
-/*.fb-icon {
+.icons > li {
+	display: inline-block;
 	float: left;
 }
-.vk-icon {
-	float: left;
-}
-.tw-icon {
-	float: left;
-}
-.social
-{
-	background-color: #414141;
-}
-
