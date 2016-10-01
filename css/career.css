@@ -1,0 +1,31 @@
+.user-career-photo {
+    display: inline-block;
+    float: left;
+    margin-right: 55px;
+   width: 220px;
+   height: 220px;
+   overflow: hidden;
+   border-radius: 9px;
+
+
+}
+
+.career__item {
+	display: inline-block;
+	padding: 45px;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	margin-bottom: 20px;
+
+}
+
+.career__item:hover {
+background-color: #33c1e3;
+}
+
+.user-career-text {
+    text-align: left;
+    overflow: auto; 
+    margin-bottom: 63px;
+}
