@@ -2,23 +2,6 @@
     background-color: #f6f6f6;
 }
 
-.menu {
-    display: inline-block;
-    float: left;
-    margin-right: 100px;
-    margin-left: 160px;
-    text-align: right;
-    line-height: 40px;
-}
-
-    
-.content-menu > li > a{
-    color: #414141;
-}
-
-.content-menu > li > a:hover{
-    color:  #33c1e3;
-} 
 
 .user-photo {
     width: 60px;
@@ -61,6 +44,7 @@
     height: 300px;
     overflow: auto;
     margin-bottom: 63px;
+    color: #727272;
 }
 
 
@@ -89,13 +73,4 @@
 .user-aboutme-detail {
     width: 80%;
     margin: 0 auto;
-}
-
-
-.nav__item.nav__item__active {
-    border-right: 6px solid #33c1e3;
-}
-
-.nav__item > a {
- padding-right: 20px;
 }

@@ -1,31 +1,101 @@
 .user-career-photo {
     display: inline-block;
     float: left;
-    margin-right: 55px;
+    margin-right: 100px;
    width: 220px;
    height: 220px;
    overflow: hidden;
    border-radius: 9px;
 
 
+
+}
+
+.career__block,
+.career__block1{
+  display: inline-block;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+} 
+
+.career__year {
+  position: absolute;
+  right: 43%;
+  top: 30%;
+  
+}
+
+.career__year1 {
+   position: absolute;
+  right: 43%;
+  top: 50%;
+}
+
+.career__year2 {
+   position: absolute;
+  right: 43%;
+  top: 70%;
+} 
+
+
+.career__year:after,
+.career__year1:after,
+.career__year2:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #33c1e3;
+    border: 5px solid #f6f6f6;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+
+.career__item:hover .career__year,
+.career__item:hover .career__year1,
+.career__item:hover .career__year2 {
+    color: #33c1e3;
+    font-weight: bold;
+} 
+
+.career__item:hover .career__year:after,
+.career__item:hover .career__year1:after,
+.career__item:hover .career__year2:after
+ {
+    border-color: #94e0f2;
+}
+
+.career__item:hover .career__block,
+.career__item:hover .career__block1  {
+    background: #33c1e3;
+}
+
+
+.career__block:after,
+.career__block:before,
+.career__block1:after,
+.career__block1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    background: #dddddd;
+    left: -20px;
 }
 
 .career__item {
-	display: inline-block;
-	padding: 45px;
-	background-color: #ffffff;
-	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-	border-radius: 20px;
-	margin-bottom: 20px;
+  display: inline-block;
+
 
 }
 
-.career__item:hover {
-background-color: #33c1e3;
-}
-
-.user-career-text {
-    text-align: left;
-    overflow: auto; 
-    margin-bottom: 63px;
+.career__block1 {
+  margin-left: 635px;
 }
