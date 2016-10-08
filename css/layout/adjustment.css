@@ -37,3 +37,54 @@ position:relative;
   margin: 0 auto;
 
 }
+@media screen and (max-width: 992px){
+ .container {
+  width: 768px;
+  margin-left: 0;}
+
+.content-menu > li {
+    display: inline;
+}
+
+.user-aboutme-photo {
+  width: 170px;
+  height: 170px;
+  margin: 50px;
+  margin-right: 100px;
+}
+.contact-link,
+.submenu {
+  margin-top: -87px;
+}
+
+.header {
+  height: 80px;
+}
+}
+
+@media screen and (max-width: 768px){
+ .container {
+  width: 480px;
+  margin-left: 0;
+ }
+
+ .content-menu > li {
+    display: inline;
+}
+
+ .user-aboutme-photo {
+  width: 170px;
+  height: 170px;
+  margin: 0 50%;
+ 
+}
+ul.menu > li > a {
+  display: none;
+}
+.user-aboutme-text {
+  height: 100%;
+
+}
+h1 {
+  margin: 0 50%;
+}
