@@ -2,7 +2,7 @@
 {
 	background-color: #414141;
 	min-height: 50px;
-	min-width: 1200px;
+	/*min-width: 1200px; */ 
 	width: 100%;
 }
 .icons > li {

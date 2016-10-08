@@ -37,6 +37,20 @@ position:relative;
   margin: 0 auto;
 
 }
+
+@media screen and (min-width: 993px)  and (max-width:1200px){
+  .container {
+width: 1200px;
+  }
+  .wrapper {
+min-width: 1200px;
+}
+.aboutme-footer {
+  min-width: 1200px;
+}
+}
+
+
 @media screen and (max-width: 992px){
  .container {
   width: 768px;
@@ -60,7 +74,15 @@ position:relative;
 .header {
   height: 80px;
 }
+.wrapper {
+min-width: 768px;
 }
+.aboutme-footer {
+  min-width: 768px;
+}
+}
+
+
 
 @media screen and (max-width: 768px){
  .container {
@@ -85,6 +107,10 @@ ul.menu > li > a {
   height: 100%;
 
 }
-h1 {
-  margin: 0 50%;
+.wrapper {
+min-width: 480px;
+}
+.aboutme-footer {
+  min-width: 480px;
+}
 }
