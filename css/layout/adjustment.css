@@ -12,18 +12,24 @@ body {
 }
 
 .wrapper {
-height:auto !important;
+height:auto !important; 
 height:100%;
 min-height:100%;
 position:relative;
 width: 100%;
 min-width: 1200px;
 }
-.empty 
-height:100px; 
+
+.wrapper:after {
+  content: "";
+  height: 50px;
+  display: block;
+}
+
+
 
 .aboutme-footer {
-height:100px;
+height:50px;
 position:relative;
 }
 
@@ -62,8 +68,8 @@ min-width: 1200px;
   margin-left: 0;}
 
 .content-menu > li {
-    display: inline;
-    text-align: left;
+    display: inline-block;
+   margin-bottom: 30px; 
 
 }
 
@@ -98,6 +104,15 @@ min-width: 768px;
     ul.submenu {
       opacity: 0.8;
     }
+
+     .user-career-photo {
+      margin-left: 70px;
+      margin-right: 170px:  }
+      .careerh1 {
+  margin-left: 70px; }
+
+
+
 }
 
 
@@ -124,7 +139,7 @@ min-width: 768px;
  
 }
 ul.menu > li > a {
-  display: none;
+ display: none;
 }
 .user-aboutme-text {
   height: 100%;
@@ -143,17 +158,33 @@ min-width: 480px;
 
     .user-career-photo {
       margin-left: 150px;
+     
     }
 
 .user-career-text {
  position: relative;
  left: 150px;
- top: 10px;
+ top: 30px;
 
 }
+
 
 .careerh1 {
   margin-left: 130px;
 
     }
+    .career__year,
+    .career__year:after {
+      display: none;
+    }
 }
+
+
+@media screen and (max-width: 470px) {
+
+  .content-menu > li {
+    font-size: 12px;
+  }
+  
+
+} 
