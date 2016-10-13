@@ -82,6 +82,7 @@ ul.menu > li > a:hover  {
 ul.submenu {
     display: none;
     position: absolute;
+    z-index: 1;
     width: 193px;
     /*height: 136px;*/
     top: 37px;

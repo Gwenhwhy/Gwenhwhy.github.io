@@ -30,3 +30,7 @@
 .portfolio__description {
 	color: #414141;
 }
+
+.career__year {
+	display: none;
+}

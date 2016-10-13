@@ -63,13 +63,14 @@ min-width: 1200px;
 
 .content-menu > li {
     display: inline;
+    text-align: left;
+
 }
 
 .user-aboutme-photo {
   width: 170px;
   height: 170px;
-  margin: 50px;
-  margin-right: 100px;
+
 }
 .contact-link,
 .submenu {
@@ -88,13 +89,21 @@ min-width: 768px;
 
 .nav__item.nav__item__active {
         border: none;
+        font-weight: bold;
+    }
+
+
+  
+
+    ul.submenu {
+      opacity: 0.8;
     }
 }
 
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
  .container {
   width: 480px;
   margin-left: 0;
@@ -102,6 +111,10 @@ min-width: 768px;
 
  .content-menu > li {
     display: inline-block;
+
+}
+.content-menu > li:last-child {
+  margin-bottom: 40px;
 }
 
  .user-aboutme-photo {
@@ -125,6 +138,22 @@ min-width: 480px;
 }
 .nav__item.nav__item__active {
         border: none;
+        font-weight: bold;
     }
+
+    .user-career-photo {
+      margin-left: 150px;
+    }
+
+.user-career-text {
+ position: relative;
+ left: 150px;
+ top: 10px;
+
 }
 
+.careerh1 {
+  margin-left: 130px;
+
+    }
+}
