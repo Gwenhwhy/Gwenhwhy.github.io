@@ -2,11 +2,15 @@
     display: inline-block;
     float: left;
     margin-right: 100px;
+margin-top: 50px;
    width: 220px;
    height: 220px;
    overflow: hidden;
    border-radius: 9px;
 
+}
+
+.careerh1 {
 
 
 }
@@ -27,73 +31,25 @@
   display: inline-block;
 }
 
-/*.career__year {
-  position: absolute;
-  right: 43%;
-  top: 30%;
+.career__year {
+  position: relative;
+  right: 65px;
+  top: -40px;
   
 }
 
-.career__year1 {
-   position: absolute;
-  right: 43%;
-  top: 50%;
-}
-
-.career__year2 {
-   position: absolute;
-  right: 43%;
-  top: 70%;
-} 
-
-
-.career__year:after,
-.career__year1:after,
-.career__year2:after {
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
-    background: #33c1e3;
-    border: 5px solid #f6f6f6;
-    position: absolute;
-    right: -25px;
-    top: 50%;
-    margin-top: -10px;
-    border-radius: 50%;
-}
-
-.career__item:hover .career__year,
-.career__item:hover .career__year1,
-.career__item:hover .career__year2 {
+.career__item:hover .career__year
+ {
     color: #33c1e3;
     font-weight: bold;
 } 
 
-.career__item:hover .career__year:after,
-.career__item:hover .career__year1:after,
-.career__item:hover .career__year2:after
- {
-    border-color: #94e0f2;
-}
-
-.career__item:hover .career__block,
-.career__item:hover .career__block1  {
+.career__item:hover .career__block  {
     background: #33c1e3;
 }
 
 
-.career__block:after,
-.career__block:before,
-.career__block1:after,
-.career__block1:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1px;
-    background: #dddddd;
-    left: -20px;
-}
+/*
 
 .career__item {
   display: inline-block;

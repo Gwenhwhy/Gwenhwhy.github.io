@@ -57,13 +57,14 @@
     }
     
 .button {
-    padding: 9px 12px;
+    padding: 7px 15px;
     border: 2px solid #e85f61;
     color: #e85f61;
     text-decoration: none;
     font-size: 14px;
     display: inline-block;
     border-radius: 40px;
+    font-weight: bold;
 }
 
 .button:hover {
@@ -74,3 +75,4 @@
     width: 80%;
     margin: 0 auto;
 }
+
