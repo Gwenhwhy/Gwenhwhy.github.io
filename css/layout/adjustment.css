@@ -111,6 +111,17 @@ min-width: 768px;
       .careerh1 {
   margin-left: 70px; }
 
+.careerh1 {
+  margin-left: 130px; }
+
+
+  .portfolio__h1 {
+    margin-left: 70px;
+    margin-bottom: 30px; }
+
+    .portfolio {
+      margin-left: -350px;
+    }
 
 
 }
@@ -168,15 +179,21 @@ min-width: 480px;
 
 }
 
-
-.careerh1 {
-  margin-left: 130px;
-
-    }
-    .career__year,
+ .career__year,
     .career__year:after {
       display: none;
     }
+
+    
+ .portfolio__h1 {
+    margin-left: 150px;
+    margin-bottom: 30px; }
+
+    .portfolio {
+      margin-left: -150px;
+
+    }
+
 }
 
 

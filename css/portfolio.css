@@ -5,6 +5,7 @@
 	 border-radius: 10px;
 	 overflow: hidden;
 	 margin-left: 5px;
+	 margin-bottom: 5px;
 
 
 }
@@ -33,4 +34,9 @@
 
 .career__year {
 	display: none;
+}
+
+.portfolio__list {
+	width: 63%;
+	float: right;
 }
