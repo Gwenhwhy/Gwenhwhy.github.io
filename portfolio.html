@@ -14,6 +14,24 @@
         <link href="css/career.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/portfolio.css">
          <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+         <link rel="stylesheet" type="text/css" href="css/animate.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+       <!-- <script>
+        function animate (elem) {
+          var effect = elem.data("effect");
+          elem.addClass("animated " + effect).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+            elem.removeClass("animated " + effect);
+          });
+
+        }
+          $(document) .ready(function() {
+            $(".aaa").mouseenter (function() {
+              animate ($(this));
+            });
+
+          });
+        </script> -->
     
 
     </head>
@@ -100,7 +118,7 @@
                               <div class="portfolio clearfix">
                                   <ul class="portfolio__list">
 
-                                      <li class="portfolio__item">
+                                     <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-carbonara.png);">
                                           </div>
@@ -111,9 +129,9 @@
                                               <div class="portfolio__description">Итальянский ресторан</div>
                                               </div>
                                           </div>
-                                      </li>
+                                      </li> 
 
-                                      <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -126,7 +144,7 @@
                                           </div>
                                       </li>
 
-                                      <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-studio.png);">
                                           </div>
@@ -138,7 +156,20 @@
                                               </div>
                                           </div>
                                       </li>
-                                         <li class="portfolio__item">
+                                         <li class="portfolio__item aaa" data-effect="bounce">
+                                      <div class="portfolio__top">
+                                          <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
+                                          </div>
+                                          </div>
+                                          <div class="portfolio__bottom">
+                                          <div class="portfolio__text">
+                                              <div class="portfolio__title">Dream-scapes 
+                                              </div>
+                                              <div class="portfolio__description">Итальянский ресторан</div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                         <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -150,7 +181,7 @@
                                               </div>
                                           </div>
                                       </li>
-                                         <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -162,7 +193,7 @@
                                               </div>
                                           </div>
                                       </li>
-                                      <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -174,7 +205,7 @@
                                               </div>
                                           </div>
                                       </li>
-                                      <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -186,7 +217,7 @@
                                               </div>
                                           </div>
                                       </li>
-                                      <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -198,7 +229,7 @@
                                               </div>
                                           </div>
                                       </li>
-                                      <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -210,19 +241,7 @@
                                               </div>
                                           </div>
                                       </li>
-                                      <li class="portfolio__item">
-                                      <div class="portfolio__top">
-                                          <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
-                                          </div>
-                                          </div>
-                                          <div class="portfolio__bottom">
-                                          <div class="portfolio__text">
-                                              <div class="portfolio__title"> Dream-scapes </div>
-                                              <div class="portfolio__description">Итальянский ресторан</div>
-                                              </div>
-                                          </div>
-                                      </li>
-                                      <li class="portfolio__item">
+                                      <li class="portfolio__item aaa" data-effect="bounce">
                                       <div class="portfolio__top">
                                           <div class="portfolio__pic" style="background-image: url(img/content/portfolio-dream.png);">
                                           </div>
@@ -276,6 +295,6 @@
             </div>
         </footer>
     </div>
-
+<script src="js/portfolio.js"></script>
 </body>
 </html>

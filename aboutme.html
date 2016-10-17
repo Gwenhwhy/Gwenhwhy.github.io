@@ -12,7 +12,9 @@
           <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
          <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+         <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.min.css">
 
     </head>
     <body>
@@ -168,6 +170,24 @@
 
     </footer>
    </div>
+<!--<script src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(
 
+  function() { 
+
+    $("html").niceScroll({cursorcolor: '#33c1e3', mousescrollstep: '60', touchbehavior: 'true'});
+
+  }
+
+);
+
+</script> -->
+
+<script src="js/perfect-scrollbar.min.js"></script>
+<script type="text/javascript">
+    $('body').perfectScrollbar()
+    $('.user-aboutme-text').perfectScrollbar()
+</script>
 </body>
 </html>
