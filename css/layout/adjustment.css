@@ -10,6 +10,66 @@ body {
     line-height: 24px;
     background-color: #f6f6f6;
 }
+#overlay {
+    background: #000;
+    position: fixed;
+  top: 0;
+    left: 0;
+    height: 100%;
+  width: 100%;
+    opacity: 0.5;
+    z-index: 1000;
+    display: none;
+}
+
+#popup {
+  width: 550px;
+  background: #fff;
+  padding: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), inset 0 0 60px rgba(0, 0, 0, 0.2);
+  color: #565656;
+  z-index: 1001;
+  display: none;
+}
+
+#popup h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#popup p {
+  margin: 6px 0;
+}
+
+
+ #close_popup {
+  width: 14px;
+  height: 16px;
+  background: url('../../img/close.png') no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .wrapper {
 height:auto !important; 

@@ -13,11 +13,15 @@
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
          <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-         <script src="js/perfect-scrollbar.jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.min.css">
+       
 
     </head>
     <body>
+    <div id="popup">
+    <h3>Благодарю за интерес к моему резюме!</h3>
+    <p>Скоро здесь можно будет скачать файл</p>
+    <div id="close_popup"></div>
+</div>
         <div class="wrapper">
 
             <!-- начали хедер -->
@@ -128,7 +132,7 @@
                                             </p>
                                         </div>
 
-                                        <div class="user-aboutme-resume">
+                                        <div class="user-aboutme-resume" id="show_popup" >
                                             <a class="button" href="#"> <i class="fa fa-download" aria-hidden="true"></i> Скачать резюме</a>
                                         </div>
 
@@ -156,38 +160,31 @@
                         © Дизайн сайта был разработан в школе LoftSchool
                     </div>
 
-                    <!--<div class="icons">
-                <ul class="social">
-                    <div class="icon"> <li> <a href="#"> <img src="img/icons/icon-facebook-na.png"> </a></li> </div>
-                    <div class="icon"><li> <a href="#"><img src="img/icons/icon-vk-a.png"> </a></li> </div>
-                    <div class="icon"><li class="tw-icon"> <a href="#"><img src="img/icons/icon-twit-na.png"> </a> </li> </div>
-                </ul> 
-                </div> -->
+             <div class="footer__right">
+                <div class="socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a href="#" class="socials__link socials__link_fb"></a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link socials__link_vk"></a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link socials__link_tw"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
                 </div>
  
             </div>
 
     </footer>
-   </div>
-<!--<script src="js/jquery.nicescroll.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(
+   </div> 
+   <div id="overlay"></div>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/portfolio.js"></script>
 
-  function() { 
-
-    $("html").niceScroll({cursorcolor: '#33c1e3', mousescrollstep: '60', touchbehavior: 'true'});
-
-  }
-
-);
-
-</script> -->
-
-<script src="js/perfect-scrollbar.min.js"></script>
-<script type="text/javascript">
-    $('body').perfectScrollbar()
-    $('.user-aboutme-text').perfectScrollbar()
-</script>
 </body>
 </html>
