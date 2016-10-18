@@ -113,7 +113,7 @@ ul.submenu > li {
 }
 ul.submenu > li > a {
     display: block;
-    padding: 5px;
+    padding: 0px 15px;
     color: #414141;
     background-color: #ffffff;
     text-decoration: none;
@@ -126,4 +126,43 @@ ul.menu > li:hover > ul.submenu {
 }
 
  
+/*
+.sprite {
+    background-image: url('../../img/icons/spritemenu.png');
+    background-repeat: no-repeat;
+    display: block;
+}
 
+.sprite-icon-mail {
+    width: 19px;
+    height: 15px;
+    background-position: -15px -15px;
+}
+
+.sprite-icon-phone {
+    width: 15px;
+    height: 16px;
+    background-position: -15px -60px;
+}
+
+.sprite-icon-skype {
+    width: 16px;
+    height: 17px;
+    background-position: -15px -106px;
+}
+*/
+.fa-envelope
+ {
+    color: #33c1e3;
+    margin-right: 20px;
+}
+
+.fa-phone
+ {
+    color: #33c1e3;
+    margin-right: 45px;
+}
+.fa-skype {
+    color: #33c1e3;
+    margin-right: 82px;
+}
